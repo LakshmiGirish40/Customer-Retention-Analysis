@@ -5,7 +5,12 @@ import pickle
 import joblib
 import seaborn as sns
 # Load the trained model
-model = joblib.load(r'final_gb_classifier.pkl')
+@st.cache
+def load_model():
+    return joblib.load('final_gb_classifier.pkl')
+
+model = load_model()
+
 data_set = pd.read_csv(r"final_gb_classifier.pkl")
 # Streamlit UI
 
