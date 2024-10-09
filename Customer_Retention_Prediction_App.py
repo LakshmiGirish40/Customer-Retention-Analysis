@@ -3,10 +3,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
 # Load the trained model
-model = joblib.load(r'D:\Data_Science&AI\Spyder\churn_project\final_gb_classifier.pkl')
+model = model = pickle.load(open(r'D:\Data_Science&AI\Spyder\churn_project\final_gb_classifier.pkl','rb'))
 data_set = pd.read_csv(r"D:\Data_Science&AI\Spyder\churn_project\Telco-Customer-Churn.csv")
 # Streamlit UI
 
