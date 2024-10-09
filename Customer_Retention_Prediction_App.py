@@ -5,7 +5,7 @@ import pickle
 import joblib
 import seaborn as sns
 # Load the trained model
-model = joblib.load(r'D:\Data_Science&AI\Spyder\churn_project\final_gb_classifier.pkl')
+model = joblib.load(r'final_gb_classifier.pkl')
 data_set = pd.read_csv(r"D:\Data_Science&AI\Spyder\churn_project\Telco-Customer-Churn.csv")
 # Streamlit UI
 
