@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import joblib
 import seaborn as sns
+import matplotlib.pyplot as plt
 # Load the trained model
 #model = joblib.load(r'final_gb_classifier.pkl')
 data_set = pd.read_csv(r"Telco-Customer-Churn.csv")
