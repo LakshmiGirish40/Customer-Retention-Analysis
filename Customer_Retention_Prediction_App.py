@@ -11,7 +11,7 @@ def load_model():
 
 model = load_model()
 
-data_set = pd.read_csv(r"final_gb_classifier.pkl")
+data_set = pd.read_csv(r"Telco-Customer-Churn.csv")
 # Streamlit UI
 
 st.title("Customer Retention Prediction")
