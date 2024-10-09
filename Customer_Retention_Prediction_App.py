@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import seaborn as sns
 # Load the trained model
-model = model = pickle.load(open(r'D:\Data_Science&AI\Spyder\churn_project\final_gb_classifier.pkl','rb'))
+model = pickle.load(open(r'D:\Data_Science&AI\Spyder\churn_project\final_gb_classifier.pkl','rb'))
 data_set = pd.read_csv(r"D:\Data_Science&AI\Spyder\churn_project\Telco-Customer-Churn.csv")
 # Streamlit UI
 
