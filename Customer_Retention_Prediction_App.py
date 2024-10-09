@@ -117,7 +117,7 @@ st.write(pd.DataFrame(data_set))
 
 #=========================================================================================
 trained_dropout_data= pd.read_csv(r'D:\Data_Science&AI\Spyder\churn_project\trained_telco_data.csv')
-trained_Xr_train= pd.read_csv(r"D:\Data_Science&AI\Spyder\churn_project\trained_Xr_train.csv")
+trained_Xr_train= pd.read_csv(r"trained_Xr_train.csv")
 y_pred= pd.read_csv(r"D:\Data_Science&AI\Spyder\churn_project\y_pred.csv")
 #============================================================================
 #Predicted_data = st.write('**Trained DataSet**')
