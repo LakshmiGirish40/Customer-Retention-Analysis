@@ -7,7 +7,7 @@ import seaborn as sns
 # Load the trained model
 @st.cache
 def load_model():
-    return joblib.load('final_gb_classifier.pkl')
+    return joblib.load(r'final_gb_classifier.pkl')
 
 model = load_model()
 
